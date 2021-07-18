@@ -40,9 +40,9 @@ btnStart.addEventListener("click", () => {
 });
 
 btnStop.addEventListener("click", () => {
-  if (!timerID) return;
+  //if (!timerID) return;
   clearInterval(timerID);
-  timerID = 0;
+  //timerID = 0;
   btnStart.disabled = false;
   btnStop.disabled = true;
 });
